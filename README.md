@@ -18,9 +18,9 @@ In order for iktinos to generate a site, it requires the following directory str
 
 - /iktinos.clj
 - /stoicheion
-- /stoicheion/<quil-cljs-project>/
-- /stoicheion/<quil-cljs-project>/page.edn
-- /stoicheion/<quil-cljs-project>/resources/public/index.html
+- /stoicheion/quil-cljs-project/
+- /stoicheion/quil-cljs-project/page.edn
+- /stoicheion/quil-cljs-project/resources/public/index.html
 
 The page.edn file stores the following information:
 
