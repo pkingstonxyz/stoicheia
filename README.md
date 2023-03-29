@@ -16,18 +16,27 @@ Iktinos is a simple static site generator for the stoicheia website. Instead of 
 
 In order for iktinos to generate a site, it requires the following directory structure
 
-- /iktinos.bb
+- /iktinos.clj
 - /stoicheion
-- /stoicheion/<root-folder-of-quil-cljs-project>/
-- /stoicheion/<root-folder-of-quil-cljs-project>/page.edn
+- /stoicheion/<quil-cljs-project>/
+- /stoicheion/<quil-cljs-project>/page.edn
+- /stoicheion/<quil-cljs-project>/resources/public/index.html
 
-The info.edn file stores the following information:
+The page.edn file stores the following information:
 
 ```
 {:title "The title of the page"
+ :public true/false
  :tags  ["list" "of" "tags"]
  :date  "date-it-was-made"
- :content [[:hiccup code][:included after the frame of js]]}
+ :content [[:hiccup code][:to-be-included the js frame]]}
 ```
 
+Using this information, it builds the site and nginx just points to the index.html file. I'd explain how it works, but if you're interested in the process, just read through iktinos.clj
+
 TODO add link to babashka
+TODO add link to iktinos.clj
+
+## Stoicheion
+
+Stoicheion is the singluar form of stoicheia. If stoicheia means elements, then, as you may already guess, stoicheion means element. Each stoicheion is an implementation of an algorithm and are better explored in the write-up page.
