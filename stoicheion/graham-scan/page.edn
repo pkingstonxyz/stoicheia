@@ -1,0 +1,7 @@
+{:title "Graham Scan convex hull algoritm"
+ :public false
+ :tags ["stack" "convex hull" "computational-geometry"]
+ :date "03-29-2023"
+ :content [[:p "The Graham Scan algorithm is an algorithm."]
+           [:p "foo"]
+           [:code "bar bar bar"]]}

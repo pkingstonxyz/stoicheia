@@ -1,0 +1,7 @@
+{:title "Bentley-Ottmann sweep line algoritm"
+ :public false
+ :tags ["binary-tree" "line-intersection" "computational-geometry"]
+ :date "03-29-2023"
+ :content [[:p "The Bentley-Ottmann algorithm is an algorithm."]
+           [:p "foo"]
+           [:code "bar bar bar"]]}
